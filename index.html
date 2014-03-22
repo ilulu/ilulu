@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-<html manifest="index.appcache">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<meta name="format-detection" content="telephone=no, email=no" />
-<meta name="x5-orientation" content="portrait" />
-<meta name="x5-fullscreen" content="true" />
-<meta name="x5-page-mode" content="app" />
-<title>Spring is a blog engine written by github issues</title>
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-320x460.png">
-<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-640x920.png" media="(-webkit-min-device-pixel-ratio: 2)">
-<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-640x1096.png" media="(device-height: 568px)">
-<link rel="stylesheet" href="dist/main.min.css" />
-<script src="dist/main.min.js"></script>
-<script>
-$.extend(spring.config, {
-  // my blog title
-  title: 'ilulu',
-  // my blog description
-  desc: "练习用的一个BLOG",
-  // my github username
-  owner: 'zhaoda',
-  // creator's username
-  creator: 'zhaoda',
-  // the repository name on github for writting issues
-  repo: 'ilulu',
-  // custom page
-  pages: [
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Spring blog : Spring is a blog engine written by GitHub Issues" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Spring blog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ilulu/ilulu">View on GitHub</a>
+
+          <h1 id="project_title">Spring blog</h1>
+          <h2 id="project_tagline">Spring is a blog engine written by GitHub Issues</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ilulu/ilulu/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ilulu/ilulu/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>123</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Spring blog maintained by <a href="https://github.com/ilulu">ilulu</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
-  ]
-})
-</script>
-</head>
-<body>
-<!--[if lt IE 9]>
-<script>
-location.href = 'https://github.com/' + spring.config.owner + '/' + spring.config.repo + '/issues?page=1&state=open'
-</script>
-<![endif]-->
-</body>
+
+  </body>
 </html>
